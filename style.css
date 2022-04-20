@@ -1,0 +1,156 @@
+/* 
+###########
+###Main### 
+##########
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+/* 
+###########
+###Header### 
+##########
+*/
+header {
+    position: relative;
+}
+
+header img {
+    width: 100vw;
+}
+
+header .navbar img {
+    width: 10vw;
+}
+
+header .navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    position: absolute;
+    top: 0vw;
+    align-items: center;
+}
+
+header .navbar .menu {
+    margin-left: 70vw;
+}
+
+header .navbar .menu img {
+    width: 1.6vw;
+    padding: 0vw 1vw;
+}
+
+header h1 {
+    position: absolute;
+    top: 20vw;
+    left: 8vw;
+    color: white;
+    font-size: 5vw;
+    font-weight: lighter;
+}
+
+header h1 .heading {
+    text-decoration: underline black;
+    font-weight: bold;
+}
+/* 
+###########
+###Items### 
+##########
+*/
+section h5 {
+    padding: 5vw 6.5vw 2vw;
+    font-size: 2vw;
+    font-weight: normal;
+}
+
+section h4 {
+    font-size: 2vw;
+    text-align: center;
+    padding: 2vw 0vw;
+    font-weight: normal;
+}
+
+section .items-grid {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vw 0vw;
+    align-items: center;
+}
+
+section .items-grid .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2vw;
+}
+
+section .items-grid .item-details button {
+    width: 7vw;
+    height: 2vw;
+    border: none;
+    background-color: #59AF0F;
+    color: white;
+    border-radius: 0.3vw;
+    font-size: 1vw;
+}
+
+section .items-grid .items {
+    overflow: hidden;
+}
+
+section .items-grid .items img {
+    width: 20vw;
+}
+
+section .items-grid .items .heart img {
+    width: 2vw;
+    position: absolute;
+    top: 1vw;
+    left: 17vw;
+}
+
+section .items-grid .items {
+    position: relative;
+}
+/* 
+###########
+###Footer### 
+##########
+*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 15vw;
+}
+
+footer p {
+    text-align: center;
+    color: #808080;
+}
+
+footer .contact{
+    color: black;
+    font-weight: bold;
+}
+
+footer .number {
+    color: black;
+}
+
+footer p.cred {
+    color: #AEAEAE;
+    padding: 3vw 0vw;
+}
+
+footer hr {
+    width: 100vw;
+    color: #AEAEAE;
+    opacity: 0.2;
+}
