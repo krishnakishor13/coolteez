@@ -27,7 +27,6 @@ header .navbar img {
 
 header .navbar {
     display: flex;
-    /* justify-content: space-between; */
     position: absolute;
     top: 0vw;
     align-items: center;
@@ -153,4 +152,63 @@ footer hr {
     width: 100vw;
     color: #AEAEAE;
     opacity: 0.2;
+}
+
+/* 
+###########
+###Signin### 
+##########
+*/
+
+section {
+    position: relative;
+    opacity: 0.8;
+}
+
+section .sign {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+    width: 30vw;
+    margin-left: 40vw;
+    margin-top: 18vw;
+    position: fixed;
+    height: 27vw;
+    border-radius: 1vw;
+    box-shadow: 0vw 0vw 25vw;
+}
+
+section .login {
+    padding: 2vw 0vw;
+    font-weight: bold;
+}
+
+section input {
+    padding: 0.7vw 2vw;
+    margin-top: 1.5vw;
+    border-radius: 2vw;
+    width: 18vw;
+    margin-left: 1vw;
+    border: 1px solid #D8D8D8;
+}
+
+section button {
+    background-color: #461DE6;
+    color: white;
+    border: none;
+    width: 7vw;
+    height: 2vw;
+    font-size: 0.9vw;
+    border-radius: 1vw;
+    margin-top: 1.4vw;
+}
+
+section p.notamem {
+    padding-top: 1vw;
+}
+
+section .sign img {
+    margin-left: 25vw;
+    margin-top: 1.5vw;
 }
