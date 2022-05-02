@@ -120,13 +120,14 @@ section .items-grid .items {
 ##########
 */
 footer {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
 }
 
 footer img {
     width: 15vw;
+    margin-left: 42.5vw;
 }
 
 footer p {
@@ -160,23 +161,17 @@ footer hr {
 ##########
 */
 
-section {
-    position: relative;
-    opacity: 0.8;
-}
-
 section .sign {
     position: absolute;
     z-index: 1;
     background-color: white;
     text-align: center;
-    width: 30vw;
-    margin-left: 40vw;
+    margin-left: 15vw;
     margin-top: 18vw;
     position: fixed;
-    height: 27vw;
     border-radius: 1vw;
     box-shadow: 0vw 0vw 25vw;
+    padding: 3vw;
 }
 
 section .login {
@@ -188,7 +183,7 @@ section input {
     padding: 0.7vw 2vw;
     margin-top: 1.5vw;
     border-radius: 2vw;
-    width: 18vw;
+    width: 25vw;
     margin-left: 1vw;
     border: 1px solid #D8D8D8;
 }
@@ -197,9 +192,9 @@ section button {
     background-color: #461DE6;
     color: white;
     border: none;
-    width: 7vw;
-    height: 2vw;
-    font-size: 0.9vw;
+    width: 15vw;
+    height: 4vw;
+    font-size: 2.2vw;
     border-radius: 1vw;
     margin-top: 1.4vw;
 }
@@ -209,6 +204,130 @@ section p.notamem {
 }
 
 section .sign img {
-    margin-left: 25vw;
+    margin-left: 56vw;
     margin-top: 1.5vw;
+}
+/* 
+###########
+###Thank you### 
+##########
+*/
+
+header .navbar-ty {
+    display: flex;
+    top: 0vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar-ty img {
+    width: 5vw;
+}
+
+header .navbar-ty .menu {
+    margin-left: 70vw;
+}
+
+header .navbar-ty .menu img {
+    width: 1.6vw;
+    padding: 0vw 1vw;
+}
+
+.thankyou {
+    background-color: blue;
+    padding: 5vw;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.thankyou-text {
+    text-align: center;
+    padding: 2vw;
+}
+
+.thankyou-text button {
+    margin-top: 1vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: blue;
+    color: white;
+    width: 15vw;
+    height: 4vw;
+    font-size: 2vw;
+}
+
+.thankyou-text p {
+    padding: 3vw;
+    font-size: 3vw;
+}
+/* 
+###########
+###Cart### 
+##########
+*/
+
+.cart {
+    padding: 2vw;
+}
+
+.product .list {
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+    font-size: 1.3vw;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+.product hr {
+    opacity: 0.2;
+    color: grey;
+}
+
+.product .list img {
+    border-radius: 50vw;
+    width: 6vw;
+    height: 6vw;
+}
+
+.product .list button {
+    border-radius: 2vw;
+    width: 8vw;
+    border: #2c2c2c;
+    font-size: 1.5vw;
+    height: 3vw;
+}
+
+.product .list h5 {
+    font-size: 1.5vw;
+}
+
+.total {
+    float: right;
+    display: flex;
+}
+
+.total .total-price {
+    font-weight: bold;
+}
+
+.total button#continue {
+    border-radius: 2vw;
+    width: 20vw;
+    margin-left: 6vw;
+    margin-right: 2vw;
+    font-size: 1.4vw;
+
+}
+
+.total button#next {
+    border-radius: 2vw;
+    background-color: #461DE6;
+    color: white;
+    border: none;
+    width: 10vw;
+    margin-right: 1vw;
+    font-size: 1.3vw;
 }
